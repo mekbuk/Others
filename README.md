@@ -6,8 +6,9 @@
 
 1. **Github**
     * Getting started with writing and formatting on [GitHub Pages](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-    2. Improve formatting
-        - Make the headings bigger
+
 2. **Linux**
+
 3. **WHM/cPanel**
+
 4. **#cooming soon**
