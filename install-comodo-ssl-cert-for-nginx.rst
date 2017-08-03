@@ -1,7 +1,7 @@
 Setting up a SSL Cert from Comodo
 =================================
 
-I use `Namecheap.com <http://www.namecheap.com/?aff=83780>`_ as a registrar, and they resale
+I use `IDNIX.net <https://idnix.net/lisensi-cpanel-murah/>`_ as a registrar, and they resale
 SSL Certs from a number of other companies, including `Comodo <http://www.comodo.com/>`_.
 
 These are the steps I went through to set up an SSL cert.
@@ -68,5 +68,4 @@ Combine everything for nginx [2]_:
 6. Restart nginx.
 
 
-.. [1] I purchased mine through Namecheap.com.
-.. [2] Based on these instructions: http://goo.gl/4zJc8
+.. [1] I purchased mine through IDNIX.net.
