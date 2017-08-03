@@ -1,4 +1,4 @@
-## Use at your own risk. Some of these commands remove data and/or terminate processes.
+> Use at your own risk. Some of these commands remove data and/or terminate processes.
 
 **WordPress attacks**
 egrep -c '(wp-comments-post.php|wp-login.php|xmlrpc.php)' /usr/local/apache/domlogs/* |grep -v "_log" |sort -t: -nr -k 2 |head -5 |tee /tmp/delete_check |cut -d'/' -f6; for domlog in $(cut -d':' -f1 /tmp/delete_check); do echo; echo $domlog; echo; echo wp-login.php :: $(grep -c wp-login.php $domlog); echo; grep wp-login.php $domlog | cut -d' ' -f1|egrep -o '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' |sort |uniq -c |sort -nr | head; echo; echo xmlrpc.php :: $(grep -c xmlrpc.php $domlog); echo; grep xmlrpc.php $domlog |cut -d' ' -f1 |egrep -o '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' |sort |uniq -c |sort -nr | head; echo; echo wp-comments-post.php :: $(grep -c wp-comments-post.php $domlog); echo; grep wp-comments-post.php $domlog |cut -d' ' -f1 |egrep -o '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' |sort |uniq -c |sort -nr | head; echo; done
