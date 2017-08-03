@@ -1,8 +1,6 @@
 # Just for Note & Awesome Sysadmin Troubleshooting :+1:
 -------------------------------------------------
 
-=======
-
 <strong>Author:</strong> mekbuk<br/><strong>Last Update:</strong> August 4, 2017
 
 
