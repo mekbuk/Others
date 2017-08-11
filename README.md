@@ -8,7 +8,8 @@
     * Getting started with writing and formatting on [GitHub Pages](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
 
 2. **Linux**
-
+	* Awesome Sysadmin [n1trux](https://github.com/n1trux/awesome-sysadmin)
+	
 3. **WHM/cPanel**
 
 4. **#cooming soon**
